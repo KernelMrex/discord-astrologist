@@ -4,7 +4,7 @@ Version 0.1
 
 Sending message with predictions in channel or personal messages
 
-####Usage: 
+#### Usage: 
 
 - `+astro` to get all predictions
 - `+astro <sign emoji>` to get current sign of the zodiac
