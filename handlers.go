@@ -46,7 +46,6 @@ func getAstroHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
-	fmt.Println(strings.TrimSpace(m.Content))
 	sign := ""
 	for key, signEmoji := range signsRunes {
 		if strings.ContainsRune(m.Content, signEmoji) {
