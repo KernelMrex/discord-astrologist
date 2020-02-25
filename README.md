@@ -1,6 +1,6 @@
 # Astrologist bot for discord
 
-Version 0.2
+Version 0.3
 
 Sending message with predictions in channel or personal messages
 
@@ -10,5 +10,12 @@ Sending message with predictions in channel or personal messages
 
 #### Usage 
 
-- `+astro` to get all predictions
-- `+astro <sign emoji>` to get current sign of the zodiac
+- `+astro <emoji>` or `+astro <word>` to get current sign of the zodiac
+
+
+## Change log
+
+### Ver 0.3
+
+- Changed `+astro <sign>` command syntax
+- Removed `+astro` command
