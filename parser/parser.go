@@ -1,4 +1,4 @@
-package parser_mail
+package parser
 
 import (
 	"fmt"

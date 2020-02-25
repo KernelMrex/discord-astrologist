@@ -48,7 +48,6 @@ func main() {
 	}
 
 	// Register the playUserSoundHandler func as a callback for MessageCreate events.
-	dg.AddHandler(getAllAstroHandler)
 	dg.AddHandler(getAstroHandler)
 
 	// Open a websocket connection to Discord and begin listening.

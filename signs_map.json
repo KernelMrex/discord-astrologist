@@ -7,6 +7,7 @@
     ],
     "emoji": ":aries:"
   },
+  
   "taurus": {
     "pseudo": [
       "телец",
@@ -14,5 +15,96 @@
       "\u2649"
     ],
     "emoji": ":taurus:"
+  },
+
+  "gemini": {
+    "pseudo": [
+      "близнецы",
+      "gemini",
+      "\u264A"
+    ],
+    "emoji": ":cancer:"
+  },
+
+  "cancer": {
+    "pseudo": [
+      "рак",
+      "cancer",
+      "\u264B"
+    ],
+    "emoji": ":cancer:"
+  },
+
+  "leo": {
+    "pseudo": [
+      "leo",
+      "лев",
+      "\u264C"
+    ],
+    "emoji": ":leo:"
+  },
+
+  "virgo": {
+    "pseudo": [
+      "virgo",
+      "дева",
+      "\u264D"
+    ],
+    "emoji": ":virgo:"
+  },
+
+  "libra": {
+    "pseudo": [
+      "libra",
+      "весы",
+      "\u264E"
+    ],
+    "emoji": ":libra:"
+  },
+
+  "scorpio": {
+    "pseudo": [
+      "scorpio",
+      "скорпион",
+      "\u264F"
+    ],
+    "emoji": ":scorpius:"
+  },
+
+  "sagittarius": {
+    "pseudo": [
+      "sagittarius",
+      "стрелец",
+      "\u2650"
+    ],
+    "emoji": ":sagittarius:"
+  },
+
+  "capricorn": {
+    "pseudo": [
+      "capricorn",
+      "козерог",
+      "\u2651"
+    ],
+    "emoji": ":capricorn:"
+  },
+
+
+  "aquarius": {
+    "pseudo": [
+      "aquarius",
+      "водолей",
+      "\u2652"
+    ],
+    "emoji": ":aquarius:"
+  },
+
+  "pisces": {
+    "pseudo": [
+      "pisces",
+      "рыбы",
+      "\u2653"
+    ],
+    "emoji": ":pisces:"
   }
 }
