@@ -14,7 +14,7 @@ func getAstroHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 	}
 
 	query := strings.TrimSpace(m.Content)
-	if !strings.HasPrefix(query, "?astro ") {
+	if !strings.HasPrefix(query, "+astro ") {
 		return
 	}
 
