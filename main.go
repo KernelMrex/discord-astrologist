@@ -2,6 +2,7 @@ package main
 
 import (
 	"AstrologyDiscordBot/config"
+	"AstrologyDiscordBot/zodiac"
 	"github.com/bwmarrin/discordgo"
 	"log"
 	"os"
@@ -23,11 +24,19 @@ func init() {
 		errorLogger.Fatalln("[ init ]", err)
 	}
 
+	// Zodiac
+	signsMap := os.Getenv("BOT_ASTROLOGIST_SIGNS")
+	signs, err := zodiac.LoadAssociateFromJson(signsMap)
+	if err != nil {
+		errorLogger.Fatalln("[ init ]", err)
+	}
+
 	// Env
 	Env = &config.Environment{
 		ErrorLogger: errorLogger,
 		InfoLogger:  infoLogger,
 		Config:      cfg,
+		Signs:       signs,
 	}
 }
 

@@ -1,0 +1,18 @@
+{
+  "aries": {
+    "pseudo": [
+      "овен",
+      "aries",
+      "\u2648"
+    ],
+    "emoji": ":aries:"
+  },
+  "taurus": {
+    "pseudo": [
+      "телец",
+      "taurus",
+      "\u2649"
+    ],
+    "emoji": ":taurus:"
+  }
+}
