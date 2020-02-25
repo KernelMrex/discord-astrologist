@@ -17,7 +17,8 @@ func init() {
 	infoLogger := log.New(os.Stdout, "INFO  | ", log.Lshortfile|log.Ltime)
 
 	// Config
-	cfg, err := config.LoadConfigFromJsonFile("configuration.dev.json")
+	configPath := os.Getenv("BOT_ASTROLOGIST_CONFIG")
+	cfg, err := config.LoadConfigFromJsonFile(configPath)
 	if err != nil {
 		errorLogger.Fatalln("[ init ]", err)
 	}
